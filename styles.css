@@ -131,3 +131,33 @@ main button {
   font-weight: bold;
   align-self: flex-end;
 }
+
+/* Call to action */
+#cfa-section {
+  padding: 40px 250px;
+}
+
+.call-for-action {
+  background-color: #3882f6;
+  padding: 40px 80px;
+  border-radius: 10px;
+  display: flex;
+  color: white;
+}
+
+.call-for-action div:nth-child(1) {
+  width: 80%;
+}
+
+.call-for-action div:nth-child(2) {
+  align-items: flex-end;
+}
+
+#sign-up {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 30px;
+}
