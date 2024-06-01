@@ -34,3 +34,41 @@ header ul {
   gap: 20px;
 }
 
+/* HERO */
+
+main {
+  background-color: #1f2937;
+  color: white;
+  padding: 60px 250px;
+  display: flex;
+  gap: 50px;
+}
+
+main div img {
+  object-fit: cover;
+  width: 500px;
+  height: 240px;
+}
+
+main h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+main p {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10px 0;
+}
+
+main button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 30px;
+  border: none;
+  border-radius: 10px;
+}
+
