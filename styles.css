@@ -109,3 +109,25 @@ main button {
   text-align: center;
 }
 
+/* Quote */
+
+#quote-section {
+  background-color: #e5e7eb;
+  padding: 100px 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#quote-section p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+  margin-bottom: 10px;
+}
+
+#quote-section span {
+  font-size: 18px;
+  font-weight: bold;
+  align-self: flex-end;
+}
