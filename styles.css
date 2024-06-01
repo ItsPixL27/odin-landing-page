@@ -1,0 +1,36 @@
+/*
+  --dark-bkgd: #1f2937;
+  --light-bkgd: #e5e7eb;
+*/
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 250px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header p {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+header ul {
+  font-size: 18px;
+  color: #e5e7eb;
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+

@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+    <title>Odin Landing Page</title>
 </head>
 <body>
     
@@ -17,25 +18,42 @@
   </header>
 
   <main>
-    <h1>This website is awesome</h1>
-    <p>This website has some subtext that goes here under the main title. It's a smaller font and the colour is lower contrast.</p>
-    <button>Sign up</button>
-    <div id="img">this is a placeholder for an image</div>
+    <div>
+      <h1>This website is awesome</h1>
+      <p>This website has some subtext that goes here under the main title. It's a smaller font and the colour is lower contrast.</p>
+      <button>Sign up</button>
+    </div>
+    <div>
+      <img src="image.jpg">
+    </div>
   </main>
 
-  <section>
+  <section id="cards-section">
     <h2>Some random information.</h2>
-    <div class="card"></div>
-    <p>This is some subtext under an illustration or image</p>
-    <div class="card"></div>
-    <p>This is some subtext under an illustration or image</p>
-    <div class="card"></div>
-    <p>This is some subtext under an illustration or image</p>
-    <div class="card"></div>
-    <p>This is some subtext under an illustration or image</p>
+    <div id="cards-flexbox">
+      <div class="card-container">
+        <div class="card"></div>
+        <p>This is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-container">
+        <div class="card"></div>
+        <p>This is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-container">
+        <div class="card"></div>
+        <p>This is some subtext under an illustration or image</p>
+      </div>
+
+      <div class="card-container">
+        <div class="card"></div>
+        <p>This is some subtext under an illustration or image</p>
+      </div>
+    </div>
   </section>
 
-  <section>
+  <section id="quote-section">
     <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
     <span>-Thor, God of Thunder</span>
   </section>
